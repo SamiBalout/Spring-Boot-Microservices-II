@@ -1,0 +1,10 @@
+spring:
+ data:
+   mongodb:
+     # username: ${MONGO_USER}
+     # password: ${MONGO_PASSWORD}
+     database: microservice
+     port: 27017
+     host: localhost
+server:
+ port: 8081
